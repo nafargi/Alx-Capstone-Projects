@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# API key files
+spotify-key.json
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Miscellaneous
+*.log
+*.cache
