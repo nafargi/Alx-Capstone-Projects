@@ -1,0 +1,161 @@
+/* .bg-pattern{
+  background-image: linear-gradient(rgba(151, 232, 151, 0.105) 1px, transparent 1px), linear-gradient(to right, rgba(112, 114, 112, 0.105) 1px, transparent 1px);
+  background-size: 80px 80px, calc(80px / 5) calc(80px / 5);
+  background-color: #00090356;
+  background-attachment: fixed;
+  
+} */
+ .bg-custom{
+  background-color: #1d203e;
+ }
+ .bg-blue-33{
+  background-color: #181840;
+
+ }
+.bg-pattern{
+  --s: 80px; /* control the size*/
+  --c1: #373d6c2f;
+  --c2:#03011442;
+  /* --c2: #021609b9; */
+
+  
+  --_g: rgba(0, 0, 0, 0.014) 90deg,var(--c1) 0;
+  background: 
+    conic-gradient(from 90deg at .4px .4px,var(--_g)),
+    conic-gradient(from 90deg at .4px .4px,var(--_g)),
+    var(--c2);
+  background-size: var(--s) var(--s), calc(var(--s)/4) calc(var(--s)/4);
+  background-attachment:fixed;
+  
+}
+.custom-border{
+  border: 0.25px solid red !important;
+}
+/* #000602c9 */
+.bg-spotify-blacks{
+  background-color: #000000;
+
+}
+.bg-spotif{
+  background-color: #35348f;
+}
+.custom-shadow{
+  box-shadow: 0px 21px 18px -7px rgba(0,0,0,0.1);
+}
+/* .bg-spotify-blacks {
+  background-color: #051b04;
+} */
+.anime:hover div img {
+    transform: scale(110%,110%);
+} 
+
+.c{
+  --s: 158px; /* control the size*/
+  --c1: #000000;
+  --c2: #ffffff;
+  
+  --_g: #0000 90deg,var(--c1) 0;
+  background: 
+    conic-gradient(from 90deg at 2px 2px,var(--_g)),
+    conic-gradient(from 90deg at 1px 1px,var(--_g)),
+    var(--c2);
+  background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+}
+.bg-spotify-blacko {
+  background-color: 	#251c4645;
+}
+/* *{
+  outline: 1px solid red;
+} */
+ .border--gray-green{
+  border-color: rgba(35, 32, 95, 0.587);
+ }
+ .hoverin{
+  position: relative;
+  overflow: hidden;
+  
+ }
+ .hoverin a{
+  position: relative;
+  z-index: 2;
+  transition: .3s ease;
+
+ }
+ /* .hoverin::before{
+  content: '';
+  position: absolute;
+  background-image: linear-gradient(to right, rgba(27, 2, 80, 0.402), #3c3f9465); 
+
+  left: 100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: .2s ease;
+  z-index: 0;
+}
+ .hoverin:hover::before{
+ left :0;
+
+ } */
+ .hoverin:hover a{
+  color: #3b95f0;
+  background: #333770;
+
+ }
+ .my-component {
+  display: block; /* Default state, visible */
+}
+.truncated-text {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide any text that overflows the container */
+  text-overflow: ellipsis; /* Add '...' at the end of overflowing text */
+}
+@media (max-width: 800px) and (min-width: 50px) {
+  .my-component {
+    display: none; /* Hide the component between 50px and 800px */
+  }
+}
+@media (max-width: 1270px) and (min-width: 50px) {
+  .my-component1 {
+    display: none; /* Hide the component between 50px and 800px */
+  }
+}
+
+/* Hide scrollbar but enable scrolling */
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+.deezer-chart {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.chart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.chart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chart-item img {
+  border-radius: 8px;
+}
+
+.chart-item h3 {
+  margin: 0;
+}
+
+.chart-item p {
+  margin: 4px 0 0;
+}
